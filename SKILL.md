@@ -5,7 +5,7 @@ description: >-
   (human-first but agent-readable: what it is, ports/services, prerequisites,
   getting-started with verify steps, an architecture diagram, a "where to put
   new code" table, endpoint/config tables) plus, when a concern outgrows the
-  hub, sibling docs REFERENCE.md (code map) and DESIGN.md (decisions + why).
+  hub, sibling docs REFERENCE.md (code map) and DECISIONS.md (decisions + why).
   Use whenever the user asks to create/refresh a README or project docs,
   document a repo, or make their docs consistent/production-grade. The skill
   SCANS the repo first, then drafts to the standard.
@@ -16,7 +16,7 @@ description: >-
 A project's docs are a **README hub** plus optional siblings that peel off only
 when they earn it. The README serves humans first (quickstart, diagram) and
 agents too. Depth graduates into `REFERENCE.md` (where the code lives) and
-`DESIGN.md` (why it's built this way) when it outgrows the hub — otherwise it
+`DECISIONS.md` (why it's built this way) when it outgrows the hub — otherwise it
 stays concatenated at the **end** of the README.
 
 ## Workflow
@@ -77,5 +77,5 @@ Section-by-section detail, patterns, and mini-examples: **`reference/sections.md
 ## Files in this skill
 
 - `reference/sections.md` — every section: purpose + pattern + a mini-example.
-- `reference/doc-set.md` — README/REFERENCE/DESIGN(/DOCS/TODO) roles, the graduation rule, cross-linking.
-- `assets/README.template.md` · `assets/REFERENCE.template.md` · `assets/DESIGN.template.md` — fill-in skeletons.
+- `reference/doc-set.md` — README/REFERENCE/DECISIONS(/DOCS/TODO) roles, the graduation rule, cross-linking.
+- `assets/README.template.md` · `assets/REFERENCE.template.md` · `assets/DECISIONS.template.md` — fill-in skeletons.

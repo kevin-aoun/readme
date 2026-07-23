@@ -1,10 +1,10 @@
 <!--
-DESIGN template — the WHY. Graduate here from the README when decisions
+DECISIONS template — the WHY. Graduate here from the README when decisions
 accumulate. Audience: future Claude + curious devs. The value is the RATIONALE
 and the REJECTED alternative — not restating what the code does.
 -->
 
-# DESIGN — {{execution model & decisions}}
+# DECISIONS — {{execution model & decisions}}
 
 > The **why**. For *what's where*, see [REFERENCE.md](REFERENCE.md); to run it, [README.md](README.md).
 

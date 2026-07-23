@@ -7,7 +7,7 @@ STRUCTURE — keep it in sync when you move or add things.
 # REFERENCE — codebase map
 
 > What is where, and how it's divided. Sibling docs (mutually exclusive):
-> [README.md](README.md) = run it & the shape · [DESIGN.md](DESIGN.md) = why it's built this way.
+> [README.md](README.md) = run it & the shape · [DECISIONS.md](DECISIONS.md) = why it's built this way.
 > Keep this in sync when you move or add things.
 
 ## 1. What this repo is
@@ -47,5 +47,5 @@ STRUCTURE — keep it in sync when you move or add things.
 ```
 
 ## 9. Deeper notes
-- {{[DESIGN.md](DESIGN.md) — decisions & rationale}}
+- {{[DECISIONS.md](DECISIONS.md) — decisions & rationale}}
 - {{source of truth for X}}

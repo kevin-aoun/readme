@@ -109,7 +109,7 @@ Each layer only talks to the one below it.
 **Pattern:** 2–4 numbered real calls (ingest → search → ask), copy-paste.
 
 ## 11. Builders' tail — Design decisions · Code map
-**Purpose:** the *why* and the *where*, for maintainers and agents. **Lives inline at the end of the README until it graduates** into `DESIGN.md` / `REFERENCE.md` (see `doc-set.md`).
+**Purpose:** the *why* and the *where*, for maintainers and agents. **Lives inline at the end of the README until it graduates** into `DECISIONS.md` / `REFERENCE.md` (see `doc-set.md`).
 - **Design decisions** — `Decision · Why (and what we rejected)`. The rejected alternative is what makes it defensible.
 - **Code map** — file-by-file `Path · Responsibility` table.
 - **Invariants / gotchas** — a numbered "read before editing" list of things that break if changed wrong (identifier namespaces, "must be named exactly X", license bars, etc.).
@@ -122,9 +122,9 @@ Each layer only talks to the one below it.
 
 ## 12. Docs map
 **Purpose:** point to siblings and name the source of truth.
-**Pattern:** a short list linking `REFERENCE.md` / `DESIGN.md` / interactive docs, and where canonical truth lives (Swagger, a schema, Claude memory).
+**Pattern:** a short list linking `REFERENCE.md` / `DECISIONS.md` / interactive docs, and where canonical truth lives (Swagger, a schema, Claude memory).
 ```md
 - [REFERENCE.md](REFERENCE.md) — where the code lives
-- [DESIGN.md](DESIGN.md) — decisions & the execution model
+- [DECISIONS.md](DECISIONS.md) — decisions & the execution model
 - Interactive API: **/docs** (Swagger) is the source of truth for request bodies
 ```

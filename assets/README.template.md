@@ -1,7 +1,7 @@
 <!--
 README template — the hub. Delete sections a project doesn't need.
 Keep the "builders' tail" (Design decisions / Code map) INLINE here until it
-graduates into DESIGN.md / REFERENCE.md (see reference/doc-set.md).
+graduates into DECISIONS.md / REFERENCE.md (see reference/doc-set.md).
 Fill every {{…}}. If a fact isn't discoverable, leave a TODO — never invent.
 -->
 
@@ -76,7 +76,7 @@ flowchart TD
 <!-- ────────────── builders' tail: inline until it graduates ────────────── -->
 
 ## Design decisions
-<!-- Graduate to DESIGN.md when this grows. Record the rejected alternative. -->
+<!-- Graduate to DECISIONS.md when this grows. Record the rejected alternative. -->
 | Decision | Why it holds up (and what we rejected) |
 |----------|----------------------------------------|
 | {{choice}} | {{rationale; rejected: {{alt}} because {{reason}}}} |
@@ -92,5 +92,5 @@ flowchart TD
 
 ## Docs
 - {{[REFERENCE.md](REFERENCE.md) — where the code lives}}
-- {{[DESIGN.md](DESIGN.md) — decisions & the model}}
+- {{[DECISIONS.md](DECISIONS.md) — decisions & the model}}
 - Source of truth: {{`/docs` (Swagger) for request bodies}}
